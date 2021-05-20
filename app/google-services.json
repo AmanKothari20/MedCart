@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "312172098377",
+    "firebase_url": "https://medicine-cart-4f3c4-default-rtdb.firebaseio.com",
+    "project_id": "medicine-cart-4f3c4",
+    "storage_bucket": "medicine-cart-4f3c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312172098377:android:d0c81c21c17800b8516098",
+        "android_client_info": {
+          "package_name": "med.cart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312172098377-9k3kg5jajva6na8cqj4s9opandhs2mnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw1V1aSJw-7fRdSHB-EKRk8M5nsKWm6sE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312172098377-9k3kg5jajva6na8cqj4s9opandhs2mnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

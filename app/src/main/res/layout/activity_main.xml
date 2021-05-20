@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F3EAF4">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="MedCart"
+            android:textColor="#2C2C84"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:text="a simple solution to all medicinal needs"
+            android:textColor="#2C2C84"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/EmailIdLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:textSize="20sp"
+            android:textColor="#F3EAF4"/>
+        <EditText
+            android:id="@+id/emailInputLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EmailIdLogin"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:id="@+id/passwordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20sp"
+            android:textColor="#F3EAF4"
+            android:layout_below="@+id/emailInputLogin"
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            />
+        <EditText
+            android:id="@+id/PasswordInputLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordLogin"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/LoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="#D9A4B0"
+            android:layout_below="@+id/PasswordInputLogin"
+            android:layout_centerInParent="true"
+            android:textColor="#F3EAF4"/>
+
+        <TextView
+            android:id="@+id/newUserText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="new user register"
+            android:layout_below="@+id/LoginBtn"
+            android:layout_centerInParent="true"
+            android:textColor="#F3EAF4"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
